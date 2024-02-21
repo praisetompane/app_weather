@@ -7,10 +7,10 @@ let Results = require('./userinterface/search/Results');
 let Home = require('./userinterface/Home');
 let Nav = require('./userinterface/layout/Nav');
 let ForecastDetails = require('./userinterface/forecast/ForecastDetails');
-let Search = require('./userinterface/search/Search');
 
 class App extends React.Component {
     render() {
+        console.info("Starting app")
         return (
             <div className='container'>
                 <Router>

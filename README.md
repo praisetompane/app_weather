@@ -26,32 +26,41 @@ You need to install NodeJS to run this program locally. Visit the official NodeJ
 
 ### Installing the application dependencies(You need to be connected to the internet for this)
 
-```
-    npm install 
+```shell
+# from root directory
+pnpm install 
 ```
 
 ### Running the tests
-```
-    npm run test
+```shell
+# from root directory
+pnpm run test
 ```
 
 ### Running the app locally(You can  find it here in your web browser: localhost:8080)
 
-```
-    npm run start
-
+```shell
+# from root directory   
+pnpm run start
 ```
 
 ### Building the app for production deployment
-```
-    npm run build
+```shell
+# from root directory   
+pnpm run build
 ```
 
 ### Building and deploying using Firebase
-```
-    npm run deploy
+```shell
+# from root directory   
+pnpm run deploy
 ```
 
+### Fix Dependencies If Too Far Out Of Date
+```shell
+# from root directory   
+    pnpm audit fix --force
+```
 
 ### Authors
    Praise Tompane
