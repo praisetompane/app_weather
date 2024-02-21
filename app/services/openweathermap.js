@@ -2,7 +2,6 @@
 
 let axios = require('axios');
 let moment = require('moment');
-let path = require('path');
 
 let id = "9237bff9d2e49f2cc980297aea363903";
 let baseUrl = "https://api.openweathermap.org/data/2.5/forecast";
