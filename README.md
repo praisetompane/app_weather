@@ -1,6 +1,6 @@
 # The Very Unique Weather App ;)
 
-A simple  weather application to get a city's weather forecast. 
+A toy simple weather application to experiment with the full life-cycle of a React Single Page Application.
 
 ### Application Tour
 
