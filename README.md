@@ -17,9 +17,7 @@ A simple  weather application to get a city's weather forecast.
 ##### 3. Drill into the details of a specific hourly forecast
 ![Alt text](/previewimages/detailedweather.png?raw=true "Optional Title")
 
-##### You can find the deployed version of the application here: https://the-very-unique-weather-82ed7.web.app
-
-### Note: You need to be in the project's folder when executing any of these comamnds
+##### You can find the deployed version of the application here: [the-very-unique-weather-82ed7.web.app](https://the-very-unique-weather-82ed7.web.app)
 
 ## Getting the App to Work Locally
 ### Prerequisites
