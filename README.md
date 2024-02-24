@@ -1,6 +1,6 @@
 # The Very Unique Weather App ;)
 
-A simple  weather application to get a city's weather forecast. My venture into web front-end development using React, quite interesting!
+A simple  weather application to get a city's weather forecast. 
 
 ### Application Tour
 
@@ -17,7 +17,10 @@ A simple  weather application to get a city's weather forecast. My venture into 
 ##### 3. Drill into the details of a specific hourly forecast
 ![Alt text](/previewimages/detailedweather.png?raw=true "Optional Title")
 
-##### You can find the deployed version of the application here: https://the-unique-weather-app.firebaseapp.com/
+##### You can find the deployed version of the application here: https://the-very-unique-weather-82ed7.web.app
+
+### Note: You need to be in the project's folder when executing any of these comamnds
+
 ## Getting the App to Work Locally
 ### Prerequisites
 You need to install NodeJS to run this program locally. Visit the official NodeJS website for how to do this.
@@ -55,13 +58,6 @@ pnpm run build
 # from root directory   
 pnpm run deploy
 ```
-
-### Fix Dependencies If Too Far Out Of Date
-```shell
-# from root directory   
-    pnpm audit fix --force
-```
-
 ### Authors
    Praise Tompane
       
