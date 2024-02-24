@@ -28,34 +28,39 @@ You need to install NodeJS to run this program locally. Visit the official NodeJ
 
 ```shell
 # from root directory
-npm install 
+pnpm install 
 ```
 
 ### Running the tests
 ```shell
 # from root directory
-npm run test
+pnpm run test
 ```
 
 ### Running the app locally(You can  find it here in your web browser: localhost:8080)
 
 ```shell
 # from root directory   
-npm run start
+pnpm run start
 ```
 
 ### Building the app for production deployment
 ```shell
 # from root directory   
-npm run build
+pnpm run build
 ```
 
 ### Building and deploying using Firebase
 ```shell
 # from root directory   
-npm run deploy
+pnpm run deploy
 ```
 
+### Fix Dependencies If Too Far Out Of Date
+```shell
+# from root directory   
+    pnpm audit fix --force
+```
 
 ### Authors
    Praise Tompane
