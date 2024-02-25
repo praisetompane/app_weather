@@ -1,6 +1,8 @@
 # The Very Unique Weather App ;)
+![build status](https://github.com/praise-toy-applications/the_very_unique_weather_app/actions/workflows/the_very_unique_weather_app_merge.yml/badge.svg) <br>
 
-A toy simple weather application to experiment with the full life-cycle of a React Single Page Application.
+### Objective:
+- A toy simple weather application to experiment with the full life-cycle of a React Single Page Application.
 
 ### Application Tour
 
@@ -29,7 +31,7 @@ You need to install NodeJS to run this program locally. Visit the official NodeJ
 
 ```shell
 # from root directory
-pnpm install 
+pnpm install
 ```
 
 ### Running the tests
@@ -41,27 +43,27 @@ pnpm run test
 ### Running the app locally(You can  find it here in your web browser: localhost:8080)
 
 ```shell
-# from root directory   
+# from root directory
 pnpm run start
 ```
 
 ### Building the app for production deployment
 ```shell
-# from root directory   
+# from root directory
 pnpm run build
 ```
 
 ### Building and deploying using Firebase
 ```shell
-# from root directory   
+# from root directory
 pnpm run deploy
 ```
 ### Authors
    Praise Tompane
-      
+
 ### Licence
     This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md) file for details
-    
+
 ### Acknowledgments
 
 ##### Thanks to https://github.com/tylermcginnis/react-fundamentals-curriculum for the base style sheet

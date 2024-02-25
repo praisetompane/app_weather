@@ -1,4 +1,4 @@
-name: Deploy Release to Firebase Hosting on merge
+name: the_very_unique_weather_app_merge
 'on':
   push:
     branches:
@@ -24,4 +24,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_THE_VERY_UNIQUE_WEATHER_APP }}'
           channelId: live
-          projectId: the-very-unique-weather-app
+          projectId: praisetompane-toy-weather-app
