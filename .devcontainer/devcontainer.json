@@ -14,5 +14,6 @@
 	"forwardPorts": [
 		"8080:8080"
 	],
+	"workspaceMount": "source=${localWorkspaceFolder},target=/the_very_unique_weather_app,type=bind,consistency=delegated",
 	"workspaceFolder": "/the_very_unique_weather_app"
 }
