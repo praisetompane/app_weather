@@ -6,6 +6,9 @@
 
 ### Application Tour
 
+##### You can find the deployed version of the application here: [the-very-unique-weather](https://praisetompane-toy-weather-app.web.app/)
+
+
 ##### 0. Homepage
 ![Alt text](/previewimages/homepage.png?raw=true "Optional Title")
 
@@ -18,8 +21,6 @@
 
 ##### 3. Drill into the details of a specific hourly forecast
 ![Alt text](/previewimages/detailedweather.png?raw=true "Optional Title")
-
-##### You can find the deployed version of the application here: [the-very-unique-weather-82ed7.web.app](https://the-very-unique-weather-82ed7.web.app)
 
 ## Getting the App to Work Locally
 ### Prerequisites
@@ -54,6 +55,13 @@ pnpm run build
 ```
 
 ### Building and deploying using Firebase
+```shell
+# from root directory
+pnpm run firebase-init
+```
+Hosting
+dist
+
 ```shell
 # from root directory
 pnpm run deploy
