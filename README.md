@@ -1,13 +1,61 @@
-# The Very Unique Weather App ;)
-![build status](https://github.com/praise-toy-applications/the_very_unique_weather_app/actions/workflows/the_very_unique_weather_app_merge.yml/badge.svg) <br>
+# app_weather ;)
+![build status](https://github.com/praisetompane/app_weather/actions/workflows/app_weather_merge.yml/badge.svg) <br>
 
-### Objective:
-- A toy simple weather application to experiment with the full life-cycle of a React Single Page Application.
+## Objectives
+- A toy weather application to experiment with the full life-cycle of a React Single Page Application.
 
-### Application Tour
+## Project Structure
 
-##### You can find the deployed version of the application here: [the-very-unique-weather](https://praisetompane-toy-weather-app.web.app/)
+## Dependencies
+- [Docker](https://docs.docker.com/get-started/)
 
+## Setup Instructions
+- The repository is configured to use [devcontainers](https://containers.dev) for development.
+    - [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
+
+## Run Program
+- To start system run
+    ```shell
+    # from root directory
+    pnpm run start
+    ```
+
+## Testing
+- Run unit and integration tests
+    ```shell
+    pnpm run test
+    ```
+
+### Building the app for production deployment
+```shell
+# from root directory
+pnpm install
+```
+
+```shell
+# from root directory
+pnpm run build
+```
+
+```shell
+# from root directory
+pnpm run deploy
+```
+
+## Git Conventions
+- **NB:** the main is locked and all changes must come through a Pull Request.
+- commit messages:
+    - provide concise commit messages that describe what you have done.
+        ```shell
+        # example:
+        git commit -m "feat(core): algorithm" -m"implement my new shiny faster algorithm"
+        ```
+    - screen shot of Githb view
+    - references:
+        - https://www.conventionalcommits.org/en/v1.0.0/
+        - https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/
+        
+## Demo
 
 ##### 0. Homepage
 ![Alt text](/previewimages/homepage.png?raw=true "Optional Title")
@@ -22,56 +70,7 @@
 ##### 3. Drill into the details of a specific hourly forecast
 ![Alt text](/previewimages/detailedweather.png?raw=true "Optional Title")
 
-## Getting the App to Work Locally
-### Prerequisites
-You need to install NodeJS to run this program locally. Visit the official NodeJS website for how to do this.
 
-### Note: You need to be in the project's folder when executing any of these comamnds
-
-### Installing the application dependencies(You need to be connected to the internet for this)
-
-```shell
-# from root directory
-pnpm install
-```
-
-### Running the tests
-```shell
-# from root directory
-pnpm run test
-```
-
-### Running the app locally(You can  find it here in your web browser: localhost:8080)
-
-```shell
-# from root directory
-pnpm run start
-```
-
-### Building the app for production deployment
-```shell
-# from root directory
-pnpm run build
-```
-
-### Building and deploying using Firebase
-```shell
-# from root directory
-pnpm run firebase-init
-```
-Hosting
-dist
-
-```shell
-# from root directory
-pnpm run deploy
-```
-### Authors
-   Praise Tompane
-
-### Licence
-    This project is licensed under the GNU License - see the [LICENSE.md](LICENSE.md) file for details
-
-### Acknowledgments
+### References
 
 ##### Thanks to https://github.com/tylermcginnis/react-fundamentals-curriculum for the base style sheet
