@@ -9,8 +9,8 @@ RUN corepack enable
 
 COPY . .
 
-RUN pnpm install 
+RUN pnpm install
 
-EXPOSE 3030
+EXPOSE 8080
 
 CMD [ "pnpm", "run", "start" ]
