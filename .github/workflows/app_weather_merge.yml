@@ -1,5 +1,5 @@
-name: the_very_unique_weather_app_merge
-'on':
+name: app_weather_merge
+on:
   push:
     branches:
       - main
@@ -8,20 +8,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v3
+      - uses: pnpm/action-setup@v4
         name: setup pnpm and install dependencies
         with:
-          version: 8
+          version: 10
           run_install: |
             - recursive: true
               args: [--frozen-lockfile, --strict-peer-dependencies]
             - args: [--global, gulp, prettier, typescript]
+      - name: test
+        run: echo "none for now"
       - name: build
         run: pnpm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         name: deploy to Firebase production
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_THE_VERY_UNIQUE_WEATHER_APP }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PRAISETOMPANE_APP_WEATHER }}'
           channelId: live
-          projectId: praisetompane-toy-weather-app
+          projectId: praisetompane-app-weather
