@@ -1,6 +1,6 @@
 FROM node:21 AS base
 
-WORKDIR /the_very_unique_weather_app
+WORKDIR /app_weather
 
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"

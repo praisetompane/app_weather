@@ -1,10 +1,11 @@
 {
-  "name": "the_very_unique_weather_app",
+  "name": "app_weather",
   "version": "1.0.0",
   "description": "provides weather predictions for a week",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV='development' webpack-dev-server --open",
+    "build-dev": "NODE_ENV='development' webpack",
     "build": "NODE_ENV='production' webpack",
     "deploy": "npm run build && firebase deploy",
     "firebase-init": "firebase login && firebase init",
@@ -12,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:praisetompane/the_very_unique_weather_app.git"
+    "url": "git+git@github.com:praisetompane/app_weather.git"
   },
   "keywords": [
     "react"
@@ -20,9 +21,9 @@
   "author": "Praise Tompane",
   "license": "GNU",
   "bugs": {
-    "url": "https://github.com/praisetompane/the_very_unique_weather_app/issues"
+    "url": "https://github.com/praisetompane/app_weather/issues"
   },
-  "homepage": "https://github.com/praisetompane/the_very_unique_weather_app#readme",
+  "homepage": "https://github.com/praisetompane/app_weather#readme",
   "dependencies": {
     "axios": "^1.6.7",
     "moment": "^2.20.1",

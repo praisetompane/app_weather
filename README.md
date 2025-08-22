@@ -2,9 +2,11 @@
 ![build status](https://github.com/praisetompane/app_weather/actions/workflows/app_weather_merge.yml/badge.svg) <br>
 
 ## Objectives
-- A toy weather application to experiment with the full life-cycle of a React Single Page Application.
+- A weather application to experiment with the full life-cycle of a React Single Page Application.
 
 ## Project Structure
+- docs: project documentation lives in here.
+- tests: test code lives in folder.
 
 ## Dependencies
 - [Docker](https://docs.docker.com/get-started/)
@@ -21,12 +23,12 @@
     ```
 
 ## Testing
-- Run unit and integration tests
-    ```shell
-    pnpm run test
-    ```
+- ### Execute Tests
+  ```shell
+  pnpm run test
+  ```
 
-### Building the app for production deployment
+## Building and Deployment
 ```shell
 # from root directory
 pnpm install
@@ -54,23 +56,18 @@ pnpm run deploy
     - references:
         - https://www.conventionalcommits.org/en/v1.0.0/
         - https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/
-        
+
 ## Demo
 
 ##### 0. Homepage
-![Alt text](/previewimages/homepage.png?raw=true "Optional Title")
+![Alt text](/docs/homepage.png?raw=true "Optional Title")
 
 ##### 1. Retrieve 5 day weather forecast
 
-![Alt text](/previewimages/fivedayweather.png?raw=true "Optional Title")
+![Alt text](/docs/fivedayweather.png?raw=true "Optional Title")
 
 ##### 2. Drill down to 3 hour interval weather forecasts
-![Alt text](/previewimages/hourlyweather.png?raw=true "Optional Title")
+![Alt text](/docs/hourlyweather.png?raw=true "Optional Title")
 
 ##### 3. Drill into the details of a specific hourly forecast
-![Alt text](/previewimages/detailedweather.png?raw=true "Optional Title")
-
-
-### References
-
-##### Thanks to https://github.com/tylermcginnis/react-fundamentals-curriculum for the base style sheet
+![Alt text](/docs/detailedweather.png?raw=true "Optional Title")
