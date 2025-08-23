@@ -3,7 +3,7 @@ let React = require('react');
 const ForecastDetails = (props) => {
     const forecastDetails = props.location.forecastDetails;
     return <div className='forecast-details'>
-        <img src={forecastDetails.icon}/>
+        <img src={forecastDetails.icon} />
         <p>{forecastDetails.date}</p>
         <p>{forecastDetails.city}</p>
         <p>{forecastDetails.description}</p>
