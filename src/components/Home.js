@@ -8,7 +8,8 @@ const Home = (props) => {
             <h1 className='header'> Enter a City</h1>
             <Search
                 onSubmit={submission.handleSubmit(props)}
-                flexDirection='column' />
+                flexDirection='column'
+            />
         </div>)
 };
 
