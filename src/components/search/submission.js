@@ -1,9 +1,6 @@
 'use strict';
-/**
- * Created by Praise on 2018/02/03.
- */
 
-function generateHandleSubmit(props) {
+function handleSubmit(props) {
     return (city) => {
         props.history.push({
             pathname: 'results',
@@ -13,5 +10,5 @@ function generateHandleSubmit(props) {
 }
 
 module.exports = {
-    generateHandleSubmit
+    handleSubmit
 };

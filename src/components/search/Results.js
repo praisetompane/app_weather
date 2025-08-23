@@ -78,7 +78,7 @@ class Results extends React.Component {
         const weatherItems = this.state.weatherItems;
         const loading = this.state.loading;
         if (loading) {
-            return <Loading text='Getting you the weather'/>;
+            return <Loading text='Getting you the weather' />;
         }
         else if (!loading && !isArrayEmpty(weatherItems)) return (
             <div>
@@ -86,13 +86,13 @@ class Results extends React.Component {
                 <div className="forecast-container">
                     {
                         weatherItems.map(ww => {
-                                const forecastDetails = extractForecastDetails(weatherItems, ww.dt_txt, this.state.city);
-                                return <Forecast
-                                    key={ww.dt_txt}
-                                    resultsPath={this.state.resultsPath}
-                                    forecastDetails={forecastDetails}
-                                />
-                            }
+                            const forecastDetails = extractForecastDetails(weatherItems, ww.dt_txt, this.state.city);
+                            return <Forecast
+                                key={ww.dt_txt}
+                                resultsPath={this.state.resultsPath}
+                                forecastDetails={forecastDetails}
+                            />
+                        }
                         )
                     }
                 </div>
@@ -100,7 +100,7 @@ class Results extends React.Component {
         );
         else {
             return <h1 className='header'>Oh dear...I failed to get your weather :(.
-                <br/>Please check your internet connection.</h1>;
+                <br />Please check your internet connection.</h1>;
         }
     }
 }

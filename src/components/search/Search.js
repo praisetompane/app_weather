@@ -4,7 +4,6 @@ let PropTypes = require('prop-types');
 class Search extends React.Component {
     constructor(props) {
         super(props);
-
         this.state = {
             city: ''
         };
@@ -27,15 +26,15 @@ class Search extends React.Component {
     render() {
         return (
             <form className='search-container'
-                  style={{flexDirection: this.props.flexDirection}}
-                  onSubmit={this.handleSubmit}
+                style={{ flexDirection: this.props.flexDirection }}
+                onSubmit={this.handleSubmit}
             >
                 <input
                     type='text'
                     className="form-control"
                     id='city'
                     placeholder='Cape Town'
-                    autoComplete='off'
+                    autoComplete='on'
                     value={this.state.city}
                     onChange={this.handleChange}
                     required={true}
@@ -43,10 +42,10 @@ class Search extends React.Component {
                 <input
                     type='submit'
                     className='btn btn-success'
-                    style={{margin: 10}}
+                    style={{ margin: 10 }}
                     value='Get Weather'
                 />
-                </form>
+            </form>
         )
     }
 }

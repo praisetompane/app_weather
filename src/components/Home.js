@@ -1,15 +1,14 @@
 let React = require('react');
 let Search = require('./search/Search');
-let Nav = require('./layout/Nav');
-let FunctionGenerators = require('../services/FunctionGenerators');
+let submission = require('./search/submission');
 
 const Home = (props) => {
     return (
         <div className='home-container'>
             <h1 className='header'> Enter a City</h1>
             <Search
-                onSubmit={FunctionGenerators.generateHandleSubmit(props)}
-                flexDirection='column'/>
+                onSubmit={submission.handleSubmit(props)}
+                flexDirection='column' />
         </div>)
 };
 
