@@ -25,7 +25,8 @@ class Search extends React.Component {
 
     render() {
         return (
-            <form className='search-container'
+            <form
+                className='search-container'
                 style={{ flexDirection: this.props.flexDirection }}
                 onSubmit={this.handleSubmit}
             >

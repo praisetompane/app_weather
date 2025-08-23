@@ -2,7 +2,7 @@
 ![build status](https://github.com/praisetompane/app_weather/actions/workflows/app_weather_merge.yml/badge.svg) <br>
 
 ## Objectives
-- A weather application to experiment with the full life-cycle of a React Single Page Application.
+- A toy weather application to experiment with the full life-cycle of a React Single Page Application.
 
 ## Project Structure
 - docs: project documentation lives in here.

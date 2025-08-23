@@ -10,14 +10,14 @@ const Nav = (props) => {
                 className='link-without-underline'
                 to={{
                     pathname: '/'
-                }}
-            >
+                }}>
                 <h1> The Very Unique Weather App ;)</h1>
             </NavLink>
 
             <Search
                 onSubmit={submission.handleSubmit(props)}
-                flexDirection='row' />
+                flexDirection='row'
+            />
         </div>
     )
 };
